@@ -38,5 +38,5 @@ while (count < 100000)
     }
     Console.SetCursorPosition(x, y);
     Console.WriteLine("+");
-    count++;
+    count++;                            // вместо count = count + 1
 }
