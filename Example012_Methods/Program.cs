@@ -57,12 +57,12 @@ string Method4(int count, string text)
     return result;
 }
 
-string res = Method4(10, "-_O_-");
+//string res = Method4(10, "-_O_-");
 // Console.WriteLine(res);
 
     for (int i = 2; i <= 10; i++)
     {
-        for (j = 2; j <= 10; j++)
+        for (int j = 2; j <= 10; j++)
         {
         Console.WriteLine($"{i} x {j} = {i*j}");
         }
